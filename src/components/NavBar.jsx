@@ -1,9 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '/AS-logo.png'
 
 function NavTabs() {
   return (
+    <>
     <ul className="nav nav-tabs">
+      <li className="nav-item">
+      <NavLink to="/"  className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }>
+      <img src={logo} alt="brand-logo" />
+      
+    </NavLink>
+      </li>
       <li className="nav-item">
         <NavLink
           to="/"
@@ -57,6 +67,7 @@ function NavTabs() {
         </NavLink>
       </li>
     </ul>
+    </>
   );
 }
 
