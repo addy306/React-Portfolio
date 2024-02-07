@@ -1,5 +1,7 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import addybabepic from '/AddybabePic.jpg'
+import Button from '../PortfolioButton';
 
 function Home() {
     return(
@@ -13,6 +15,9 @@ function Home() {
         <img src={addybabepic}
         className='w-[160px] h-[160xp] bg-gray-200 p-7 rounded-full'
         />
+        <h2 className='text-[40px] font-bold'>I am a Front-end developer with an eye for UI and a brain for UX.</h2>  
+            <Button />
+          
     </div>
     )
 }
