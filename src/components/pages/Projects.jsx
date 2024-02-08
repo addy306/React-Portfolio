@@ -9,9 +9,8 @@ const Project = ({ project }) => {
   const { id, title, deployedLink, githubLink, image } = project;
 
   return (
-<div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">  
-    <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
-    
+
+    <div className="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal" >
       <img src={image} alt={`${title} screenshot`}/>
       <div className="p-4 pt-2">
         <div className="font-bold text-xl mb-8">{title}
@@ -25,8 +24,9 @@ const Project = ({ project }) => {
       </div>
       
     
+
 </div>
-</div> 
+
   );
 };
 
