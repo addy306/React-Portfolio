@@ -23,6 +23,7 @@ function Contact() {
   };
     return(
         <>
+        <h2 className='text-[40px] font-bold'>Contact Me</h2>
        <form
             className="my-10 flex flex-col justify-start items-center max-w-xl m-auto"
             onSubmit={handleSubmit(onSubmit)}

@@ -6,12 +6,14 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
+import SocialsSide from './components/SocialsSide'
 import './index.css'
 
 function App() {
   return (
     <Router>
       <Header />
+      <SocialsSide/>
       {/* Wrap Route elements in a Routes component */}
       <Routes>
         {/* Define routes using the Route component to render different page components at different paths */}
@@ -22,7 +24,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
-        
       </Routes>
     </Router>
   );
