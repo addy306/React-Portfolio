@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "deployedLink": "https://example.com/project1",
+      "githubLink": "https://github.com/example/project1",
+      "image": "project1.gif"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "deployedLink": "https://example.com/project2",
+      "githubLink": "https://github.com/example/project2",
+      "image": "project2.png"
+    }
+    
+  ]
+  
