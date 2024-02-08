@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "deployedLink": "https://example.com/project1",
+      "githubLink": "https://github.com/example/project1",
+      "image": "bootstrap-portfolio.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "deployedLink": "https://example.com/project2",
+      "githubLink": "https://github.com/example/project2",
+      "image": "horiseon-challenge.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Project 1",
+      "deployedLink": "https://example.com/project1",
+      "githubLink": "https://github.com/example/project1",
+      "image": "bootstrap-portfolio.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Project 2",
+      "deployedLink": "https://example.com/project2",
+      "githubLink": "https://github.com/example/project2",
+      "image": "horiseon-challenge.jpg"
+    }
+
+    
+  ]
+  

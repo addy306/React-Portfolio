@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
 import Socials from './components/Socials';
 import ProjectGallery from './components/pages/ProjectGallery';
@@ -23,9 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
-        <Route exact path="/projects" component={<ProjectGallery/>} />
+        <Route path="/projectgallery" element={<ProjectGallery/>} />
       </Routes>
     </Router>
   );
