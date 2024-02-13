@@ -7,6 +7,8 @@ import Contact from './components/pages/Contact';
 import Skills from './components/pages/Skills';
 import Socials from './components/Socials';
 import ProjectGallery from './components/pages/ProjectGallery';
+import LiveWebsite from './components/pages/LiveWebsite';
+
 import './index.css'
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projectgallery" element={<ProjectGallery/>} />
+        <Route path="/livewebsite" element={<LiveWebsite/>} />
       </Routes>
     </Router>
   );

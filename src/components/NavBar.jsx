@@ -19,6 +19,7 @@ const NavTabs = () => {
     { id: 3, text: 'ProjectGallery' },
     { id: 4, text: 'Skills' },
     { id: 5, text: 'Contact' },
+    { id: 6, text: 'LiveWebsite'}
   ];
 
   return (
