@@ -1,33 +1,39 @@
 [
     {
       "id": 1,
-      "title": "Project 1",
-      "deployedLink": "https://example.com/project1",
-      "githubLink": "https://github.com/example/project1",
-      "image": "bootstrap-portfolio.jpg"
+      "title": "Weather App",
+      "deployedLink": "https://addy306.github.io/Cities-Weather-Dashboard/",
+      "githubLink": "https://github.com/addy306/Cities-Weather-Dashboard",
+      "image": "weather-app.JPG"
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "deployedLink": "https://example.com/project2",
-      "githubLink": "https://github.com/example/project2",
-      "image": "horiseon-challenge.jpg"
+      "title": "Daily Planner",
+      "deployedLink": "https://addy306.github.io/Daily-Planner-App/",
+      "githubLink": "https://github.com/addy306/Daily-Planner-App",
+      "image": "daily-planner.JPG"
     },
     {
       "id": 3,
-      "title": "Project 1",
-      "deployedLink": "https://example.com/project1",
-      "githubLink": "https://github.com/example/project1",
-      "image": "bootstrap-portfolio.jpg"
+      "title": "Coding Quiz",
+      "deployedLink": "https://addy306.github.io/Javascript-Timer-Quiz/",
+      "githubLink": "https://github.com/addy306/Javascript-Timer-Quiz",
+      "image": "CodingQuiz.JPG"
     },
     {
       "id": 4,
-      "title": "Project 2",
-      "deployedLink": "https://example.com/project2",
-      "githubLink": "https://github.com/example/project2",
-      "image": "horiseon-challenge.jpg"
+      "title": "Password Generator",
+      "deployedLink": "https://addy306.github.io/Password-Generator/",
+      "githubLink": "https://github.com/addy306/Password-Generator",
+      "image": "PasswordGenerator.JPG"
+    },
+    {
+      "id": 5,
+      "title": "Team Profile Generator",
+      "deployedLink": "https://addy306.github.io/Team-Profile-Generator/",
+      "githubLink": "https://github.com/addy306/Team-Profile-Generator",
+      "image": "team-profile-generator.png"
     }
-
     
   ]
   
