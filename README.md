@@ -13,11 +13,11 @@
   </div>
 
 ## Deployed page URL
-[My React Portfolio App](https://addy306.github.io/React-Portfolio/)
+[My React Portfolio App](https://adijatportfolio.netlify.app/)
 
 
 ## Description
-
+This is a personal tech portfolio created using React .
 
 ## Table of Contents
 - [Installation](#installation)
@@ -42,13 +42,13 @@ Simply click on deployed url
 ### Screenshots, Videos, GIF
 
 ### Screenshot of App Desktop View
-![Screenshot of Webpage](./images/desktop-view.JPG)
+![Screenshot of Webpage](./public/home-page.JPG)
 
 ### GIF of App been used
-![GIF of App](./images/weather-gif)
+![GIF of App](./public/App-gif)
 
 ### GIF of App responsivness
-![Responsive](./images/responsive-gif)
+![Responsive](./public/GIF-Responsive)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -64,6 +64,7 @@ Test in browser
 ## Built With
 * Boostrap
 * Reactjs
+* Navigation with React Router
 
 
 ## Questions
