@@ -33,6 +33,13 @@
       "deployedLink": "https://addy306.github.io/Team-Profile-Generator/",
       "githubLink": "https://github.com/addy306/Team-Profile-Generator",
       "image": "team-profile-generator.png"
+    },
+    {
+      "id": 5,
+      "title": "Travel Guide App",
+      "deployedLink": "https://timatoyo.github.io/wonderGuard/",
+      "githubLink": "https://github.com/addy306/",
+      "image": "wanderguard.png"
     }
     
   ]
