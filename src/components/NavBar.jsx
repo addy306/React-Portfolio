@@ -57,18 +57,18 @@ const NavTabs = () => {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
+            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-[#a51c4b] bg-[#f0f2f0] ease-in-out duration-500'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>REACT.</h1>
+        <img src={logo} alt="brand-logo" className='w-[90px] h-[90px]' />
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className='p-4 border-b rounded-xl hover:bg-[#a51c4b] duration-300 hover:text-white cursor-pointer border-gray-600'
           >
               <NavLink
           to={item.text}
